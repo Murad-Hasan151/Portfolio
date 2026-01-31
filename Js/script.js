@@ -1,10 +1,16 @@
 let menuBar = document.getElementById("menuBar");
 let menu = document.getElementById("menu");
-menuBar.addEventListener("click", () => {
+menuBar.addEventListener("click", (e) => {
+    e.stopPropagation();
   menu.classList.toggle("hidden");
 });
 
+document.addEventListener("click", (e)=>{
+    if(!menu.contains(e.target) && !menuBar.contains(e.target)){
+        menu.classList.add("hidden");
+    }
+});
 
 
  
-let links = document.querySelectorAll()
+
