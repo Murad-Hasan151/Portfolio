@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Styles/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="flex flex-col min-h-screen">
+    <header class="bg-gray-100 shadow-md max-w-[1920px] w-full mx-auto">
+        <nav class="flex items-center justify-between py-2 w-[95%] md:w-[90%] lg:w-[80%] mx-auto">
+            <div class="font-bold text-4xl">
+                <i class="fa-brands fa-mastodon"></i>
+            </div>
+            <div class="hidden md:block laptop">
+                <ul class="flex gap-8 text-xl ">
+                    <li><a class=" px-2 rounded-full" href="./index.html">Home</a></li>
+                    <li><a class=" px-2 rounded-full" href="./works.html">Works</a></li>
+                    <li><a class=" px-2 rounded-full" href="#">Blog</a></li>
+                    <li><a class=" px-2 rounded-full" href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="block md:hidden text-xl relative">
+                <i id="menuBar" class="fa-solid fa-bars cursor-pointer"></i>
+                <div id="menu" class="hidden absolute right-0">
+                    <ul class="shadow-lg p-5 text-xl rounded-md space-y-3">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Works</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="flex-grow text-[#21243D] w-[90%] md:w-[70%] lg:w-[60%] mx-auto">
+        <h1 class="font-bold text-5xl mt-20 mb-12">Blog</h1>
+        <h2 class="font-medium text-3xl mb-4">UI Interactions of the week</h2>
+        <div class="text-xl mb-4">12 Feb 2019 <span class="mx-3 md:mx-6">|</span> <span class="text-[#8695A4]">Express,
+                Handlebars</span></div>
+        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+            velit
+            mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        <hr class="my-5 text-[#E0E0E0]">
+        <h2 class="font-medium text-3xl mb-4 mt-10">UI Interactions of the week</h2>
+        <div class="text-xl mb-4">12 Feb 2019 <span class="mx-3 md:mx-6">|</span> <span class="text-[#8695A4]">Express,
+                Handlebars</span></div>
+        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+            velit
+            mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        <hr class="my-5 text-[#E0E0E0]">
+        <h2 class="font-medium text-3xl mb-4 mt-10">UI Interactions of the week</h2>
+        <div class="text-xl mb-4">12 Feb 2019 <span class="mx-3 md:mx-6">|</span> <span class="text-[#8695A4]">Express,
+                Handlebars</span></div>
+        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+            velit
+            mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        <hr class="my-5 text-[#E0E0E0]">
+        <h2 class="font-medium text-3xl mb-4 mt-10">UI Interactions of the week</h2>
+        <div class="text-xl mb-4">12 Feb 2019 <span class="mx-3 md:mx-6">|</span> <span class="text-[#8695A4]">Express,
+                Handlebars</span></div>
+        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+            velit
+            mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        <hr class="my-5 text-[#E0E0E0]">
+    </main>
+
+    <footer class="max-w-[1920px] w-full mx-auto">
+        <div class="w-[95%] md:w-[90%] lg:w-[80%] mx-auto text-center mb-10 mt-16">
+            <div class="flex justify-center mb-5 gap-5 text-4xl">
+                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <hr class="text-[#E0E0E0] mb-1 md:w-[50%] mx-auto">
+            <p class="text-[#21243D] text-sm">Copyright ©2020 All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="/Js/script.js"></script>
+</body>
+
+</html>
