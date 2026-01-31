@@ -11,6 +11,13 @@ document.addEventListener("click", (e)=>{
     }
 });
 
+const menuLinks = menu.querySelectorAll("a");
+menuLinks.forEach((link) => {
+    link.addEventListener("click", ()=>{
+        menu.classList.add("hidden");
+    })
+});
+
 
  
 
