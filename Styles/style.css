@@ -1,10 +1,10 @@
 * {
     font-family: "Heebo", sans-serif;
 }
-header .laptop ul li a{
+header nav .laptop ul li a{
     transition: 300ms;
 }
-header .laptop ul li a:hover{
+header nav .laptop ul li a:hover{
     box-shadow: 0 0 2px red;
     
 }

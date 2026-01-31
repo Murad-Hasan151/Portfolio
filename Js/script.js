@@ -18,6 +18,19 @@ menuLinks.forEach((link) => {
     })
 });
 
+const links = document.querySelectorAll("nav a");
+const currentPage = location.pathname.split("/").pop() || "index.html";
+links.forEach((link) => {
+    const linkPage = link.getAttribute("href").split("/").pop();
+    if(linkPage === currentPage){
+        link.classList.add(
+            "text-red-600"
+        );
+    }
+});
+
+
+
 
  
 
