@@ -46,6 +46,7 @@
 
     <main class="flex-grow">
         <section class="flex-grow bg-gray-50 py-16">
+            
             <div class="w-[95%] md:w-[80%] lg:w-[70%] mx-auto">
 
                 <!-- Heading -->
@@ -106,12 +107,20 @@
                                 placeholder="Write your message..."></textarea>
                         </div>
 
-                        <button class="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 transition">
+                        <button id="contact-submit" type="submit" class="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700 transition">
                             Send Message
                         </button>
 
                         <p id="formMsg" class="text-sm mt-2"></p>
                     </form>
+                    <div id="message-card" class="bg-gradient-to-r from-[#06B6D4] to-[#22C55E] p-10 hidden rounded-xl">
+                        <div class="flex justify-center"><i class="fa-solid fa-check animate-pulse bg-white rounded-full text-2xl px-1 py-[3px] font-bold text-green-600"></i>
+                        </div>
+                        <h1 class="text-white font-bold">Thank you for contact Us. Your message has been received. Our team will
+                            contact
+                            you shortly.</h1>
+                    </div>
+
 
                 </div>
             </div>
@@ -133,6 +142,7 @@
     </footer>
 
     <script src="./Js/script.js"></script>
+    <script src="./Js/contact.js"></script>
 </body>
 
 </html>
